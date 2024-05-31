@@ -4,16 +4,17 @@
 ## Table of Contents 
 
 1. [Introduction](#introduction)
-2. [Input parameters](#input-parameters)
-3. [Sample_output_results](#test-data-results)
-4. [Creative Commons](#creative-commons)
-5. [Citation](#citation)
-6. [Developers](#developers)
+2. [Quick start](#quick-start)
+3. [Input parameters](#input-parameters)
+4. [Sample output results](#sample-output-results)
+5. [Creative Commons](#creative-commons)
+6. [Citation](#citation)
+7. [Developers](#developers)
 
 
 ## Introduction
 
-Python script to simulate an RT-PCR experiment incorporating cDNA barcoding and NGS sequencing. The purpose of the program is to assess the ability of single-strand consensus sequencing (SSCS) to evaluate the fidelity of reverse transcriptases, as well as its accuracy in discarding errors introduced during library preparation and sequencing.
+Python script to simulate an RT-PCR experiment incorporating cDNA barcoding and NGS sequencing. The program aims to assess the ability of single-strand consensus sequencing (SSCS) to evaluate the fidelity of reverse transcriptases, as well as its accuracy in discarding errors introduced during library preparation and sequencing.
 
 Single Strand Consensus Sequencing method to determine the fidelity of reverse transcriptases:
 ![Workflow](https://github.com/RTlabCBM/FidelityFinder/blob/main/docs/images/Primers_IDs_method.PNG?raw=true)
@@ -98,9 +99,26 @@ thresholds_list = "0,75,100"
 output_prefix = "simulation1"
 ```
 
-## Sample_output_results
+## Sample output results
+The program generates several files, including graphs, an Excel file with a summary of the obtained results, and `.json` files with specific data. These are some examples of the output data:
+
+- Summary data excel (`<output_prefix>summary_data.xlsx`)
+
+- Barcode size families distribution(`<output_prefix>total_frequencies_distribution_graph.png`)
+
+- Error rates by barcode for a fixed threshold value (`<output_prefix>all_error_rates_graph.png`)
+
+- Histogram with the percentages of the max frequency nucleotide in each position of the aligned sequences used for consensus construction (`<output_prefix>Max_frequent_nucleotides_percentages_histogram_cutoff_1_threshold_0.png`)
+
+- Distribution of mutations across the sequence for a fixed cutoff and threshold (`<output_prefix>mutations_distribution_graph_cutoff_3_threshold_100`)
+
+- Distribution of barcode size families together with offsprings percentages (`<output_prefix>percentage_differences.png)
 
 
+## Creative Commons
+[![image](https://github.com/RTlabCBM/FidelityFinder/blob/main/docs/images/cc_logo.png?raw=true)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)  
+**Attribution-NonCommercial-ShareAlike 4.0 International**  
+**(CC BY-NC-SA 4.0)** 
 
 ## Citation  
 We politely request that this work be cited as:  
