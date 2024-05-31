@@ -3,7 +3,7 @@
 <!-- # Badges -->
 <p align="center">
     <a href="https://jupyter.org/">
-        <img src="https://img.shields.io/badge/Jupyter%20Notebook-FFA500?style=for-the-badge&labelColor=FFFFFF&logo=jupyter" /></a>
+        <img src="https://img.shields.io/badge/Jupyter%20Notebook-FFA500?&logo=jupyter&logoColor=white"" /></a>
 </p>
 
 
