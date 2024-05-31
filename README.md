@@ -112,7 +112,7 @@ The program generates several files, including graphs, an Excel file with a summ
 ![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000all_error_rates_graph.png?raw=true)
 - Histogram with the percentages of the max frequency nucleotide in each position of the aligned sequences used for consensus construction (`<output_prefix>Max_frequent_nucleotides_percentages_histogram_cutoff_1_threshold_0.png`)
 ![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000Max_frequent_nucleotides_percentages_histogram_cutoff_1_threshold_0.png?raw=true)
-- Distribution of barcode size families together with offsprings percentages (`<output_prefix>percentage_differences.png)
+- Distribution of barcode size families together with offsprings percentages (`<output_prefix>percentage_differences.png`)
 ![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000percentage_differences.png?raw=true)
 
 ## Creative Commons
