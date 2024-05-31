@@ -104,7 +104,7 @@ The program generates several files, including graphs, an Excel file with a summ
 
 - Summary data excel (`<output_prefix>summary_data.xlsx`)
 ![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/excel_file_sample.png?raw=true)
-- Barcode size families distribution(`<output_prefix>total_frequencies_distribution_graph.png`)
+- Barcodes size families distribution(`<output_prefix>total_frequencies_distribution_graph.png`)
 ![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000total_frequencies_distribution_graph.png?raw=true)
 - Distribution of mutations across the sequence for a fixed cutoff and threshold (`<output_prefix>mutations_distribution_graph_cutoff_3_threshold_100`)
 ![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000mutations_distribution_graph_cutoff_3_threshold_100.png?raw=true)
