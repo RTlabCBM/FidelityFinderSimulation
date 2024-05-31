@@ -28,7 +28,7 @@ Following PCR amplification, a subset of sequences (determined by `NGS_reads_num
 Single nucleotide substitution errors are the sole type of simulated errors.
 
 ## Quick start
-The program is available as a Jupyter Notebook. It can be opened and run with the following Google Colab link: [fidelity_finder_simulation](https://colab.research.google.com/github/RTlabCBM/FidelityFinderJupyter/blob/main/JupyterNotebooks/fidelity_finder_simulation.ipynb)
+The program is available as a Jupyter Notebook. It can be opened and run with the following Google Colab link: [fidelity_finder_simulation](https://colab.research.google.com/github/RTlabCBM/FidelityFinderSimulation/blob/main/JupyterNotebooks/fidelity_finder_simulation.ipynb)
 
 ## Input parameters
 
