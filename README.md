@@ -1,3 +1,12 @@
+[![jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&logo=Jupyter)](https://jupyterlab.readthedocs.io/en/stable)
+
+<!-- # Badges -->
+<p align="center">
+    <a href="https://jupyter.org/">
+        <img src="https://img.shields.io/badge/Jupyter%20Notebook-FFA500?style=for-the-badge&labelColor=FFFFFF&logo=jupyter" /></a>
+</p>
+
+
 # FidelityFinderSimulation
 
 
