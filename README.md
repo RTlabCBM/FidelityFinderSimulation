@@ -132,5 +132,5 @@ We politely request that this work be cited as:
 (Citation details are not yet available)
 
 ## Developers
-### Main developer
+
 - Javier Martínez del Río
