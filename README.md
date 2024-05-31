@@ -4,9 +4,9 @@
 ## Table of Contents 
 
 1. [Introduction](#introduction)
-2. [Quick start](#quick-start)
-3. [Input parameters](#input-parameters)
-4. [Sample output results](#sample-output-results)
+2. [Quick Start](#quick-start)
+3. [Input Parameters](#input-parameters)
+4. [Sample Output Results](#sample-output-results)
 5. [Creative Commons](#creative-commons)
 6. [Citation](#citation)
 7. [Developers](#developers)
@@ -27,10 +27,10 @@ Following PCR amplification, a subset of sequences (determined by `NGS_reads_num
 
 Single nucleotide substitution errors are the sole type of simulated errors.
 
-## Quick start
+## Quick Start
 The program is available as a Jupyter Notebook. It can be opened and run with the following Google Colab link: [fidelity_finder_simulation](https://colab.research.google.com/github/RTlabCBM/FidelityFinderSimulation/blob/main/JupyterNotebooks/fidelity_finder_simulation.ipynb)
 
-## Input parameters
+## Input Parameters
 
 Parameters that can be provided as input together with example values:
 
@@ -99,7 +99,7 @@ thresholds_list = "0,75,100"
 output_prefix = "simulation1"
 ```
 
-## Sample output results
+## Sample Output Results
 The program generates several files, including graphs, an Excel file with a summary of the obtained results, and `.json` files with specific data. These are some examples of the output data:
 
 - Summary data excel (`<output_prefix>summary_data.xlsx`)
