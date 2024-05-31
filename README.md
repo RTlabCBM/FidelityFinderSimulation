@@ -38,36 +38,64 @@ These are the parameters that can be provided as input together with example val
 initial_seq_number = 3000
 ```
 - Length of the initial_sequences (nt)
+```console
 seq_len = 300 #@param {type:"number"}
+```
 - Length of the barcode added to each sequence (nt)
+```console
 barcode_len = 14 #@param {type:"number"}
+```
 - Error rate during reverse transcription
+```console
 RT_error_rate = 0.00002 #@param {type:"number"}
+```
 - Number of PCR cycles
+```console
 PCR_cycles_number = 15 #@param {type:"number"}
+```
 - Proportion of sequences that are amplified in each PCR cycle (0.0-1.0)
+```console
 PCR_selection_rate = 0.3 #@param {type:"number"}
+```
 - Error rate during each cycle of PCR
+```console
 PCR_error_rate = 0.00003 #@param {type:"number"}
+```
 - Error rate during each cycle of PCR for barcode amplification
+```console
 PCR_error_rate_for_barcodes = 0.00003 #@param {type:"number"}
+```
 - Number of reads that are sequenced
+```console
 NGS_reads_number = 130000 #@param {type:"number"}
+```
 - Error rate during sequencing
+```console
 NGS_error_rate = 0.001 #@param {type:"number"}
+```
 - Error rate during sequencing of barcodes
+```console
 NGS_error_rate_for_barcodes = 0.001 #@param {type:"number"}
+```
 - Error rate during sequencing of barcodes hotspots
+```console
 NGS_error_rate_for_barcodes_hotspots = 0.01 #@param {type:"number"}
+```
 - Hotspots module. Select a 2 to introduce hotspots in even positions. Select a number higher than barcode_len to avoid hotspots
+```console
 hotspots_module = 2 #@param {type:"integer"}
+```
 - Cutoffs for sequence filtering. Barcode frequencies equal to or lower are discarded. Provide as a comma-separated list
+```console
 cutoffs_list = "1,2,3,4" #@param {type:"string"}
 - Thresholds for consensus construction. Provide as a comma-separated list
+```console
 thresholds_list = "0,75,100" #@param {type:"string"}
+```
 - Output_prefix for the generated files
+```console
 output_prefix = "simulation1" #@param {type:"string"}
-
+```
 
 
 
