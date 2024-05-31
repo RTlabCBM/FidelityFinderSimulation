@@ -17,7 +17,7 @@
 Python script to simulate an RT-PCR experiment incorporating cDNA barcoding and NGS sequencing. The program aims to assess the ability of single-strand consensus sequencing (SSCS) to evaluate the fidelity of reverse transcriptases, as well as its accuracy in discarding errors introduced during library preparation and sequencing.
 
 Single Strand Consensus Sequencing method to determine the fidelity of reverse transcriptases:
-![Workflow](https://github.com/RTlabCBM/FidelityFinder/blob/main/docs/images/Primers_IDs_method.PNG?raw=true)
+![SSCS](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/sscs_method.PNG?raw=true)
 
 The program initiates by generating a specified number of cDNA sequences (`initial_seq_number`) with a length defined by `seq_len`. A barcode (also known as Unique Molecular Identifier) is assigned to each cDNA sequence. The length of the barcode can be specified with `barcode_len` parameter. Random mutations are introduced to the cDNA sequences based on the probability defined by the `RT_error_rate parameter`. These mutations emulate transcription and reverse transcription errors.
 
@@ -103,20 +103,20 @@ output_prefix = "simulation1"
 The program generates several files, including graphs, an Excel file with a summary of the obtained results, and `.json` files with specific data. These are some examples of the output data:
 
 - Summary data excel (`<output_prefix>summary_data.xlsx`)
-
+![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/excel_file_sample.png?raw=true)
 - Barcode size families distribution(`<output_prefix>total_frequencies_distribution_graph.png`)
-
-- Error rates by barcode for a fixed threshold value (`<output_prefix>all_error_rates_graph.png`)
-
-- Histogram with the percentages of the max frequency nucleotide in each position of the aligned sequences used for consensus construction (`<output_prefix>Max_frequent_nucleotides_percentages_histogram_cutoff_1_threshold_0.png`)
-
+![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000total_frequencies_distribution_graph.pngg?raw=true)
 - Distribution of mutations across the sequence for a fixed cutoff and threshold (`<output_prefix>mutations_distribution_graph_cutoff_3_threshold_100`)
-
+![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000mutations_distribution_graph_cutoff_3_threshold_100.pngg?raw=true)
+- Error rates by barcode for a fixed threshold value (`<output_prefix>all_error_rates_graph.png`)
+![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000all_error_rates_graph.png?raw=true)
+- Histogram with the percentages of the max frequency nucleotide in each position of the aligned sequences used for consensus construction (`<output_prefix>Max_frequent_nucleotides_percentages_histogram_cutoff_1_threshold_0.png`)
+![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000Max_frequent_nucleotides_percentages_histogram_cutoff_1_threshold_0.png?raw=true)
 - Distribution of barcode size families together with offsprings percentages (`<output_prefix>percentage_differences.png)
-
+![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/simulation30000percentage_differences.png?raw=true)
 
 ## Creative Commons
-[![image](https://github.com/RTlabCBM/FidelityFinder/blob/main/docs/images/cc_logo.png?raw=true)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)  
+![image](https://github.com/RTlabCBM/FidelityFinderSimulation/blob/main/docs/images/cc_logo.png?raw=true)
 **Attribution-NonCommercial-ShareAlike 4.0 International**  
 **(CC BY-NC-SA 4.0)** 
 
