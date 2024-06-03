@@ -3,6 +3,7 @@
 <p align="center">
     <a href="https://jupyter.org/">
         <img src="https://img.shields.io/badge/Jupyter-FFA500?&logo=jupyter&logoColor=white"" /></a>
+    <a href="https://zenodo.org/doi/10.5281/zenodo.11441845"><img src="https://zenodo.org/badge/808655967.svg" alt="DOI"></a>
 </p>
 
 # FidelityFinderSimulation
