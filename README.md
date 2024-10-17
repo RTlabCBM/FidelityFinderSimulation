@@ -128,8 +128,9 @@ The program generates several files, including graphs, an Excel file with a summ
 **(CC BY-NC-SA 4.0)** 
 
 ## Citation  
-We politely request that this work be cited as:  
-(Citation details are not yet available)
+We politely request that this work be cited as:
+
+Martínez del Río, J., Frutos-Beltrán, E., Sebastián-Martín, A., Lasala, F., Yasukawa, K., Delgado, R., & Arias, L. M. (2024). HIV-1 reverse transcriptase error rates and transcriptional thresholds based on single-strand consensus sequencing of target RNA derived from in vitro-transcription and HIV-infected cells. Journal of Molecular Biology, 168815. [https://doi.org/10.1016/j.jmb.2024.168815](https://doi.org/10.1016/j.jmb.2024.168815)
 
 ## Developers
 
